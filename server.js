@@ -9,7 +9,7 @@ import express from 'express'
 const app = express()
 const http = createServer(app)
 const io = new Server(http)
-const port = process.env.PORT || 0000
+const port = process.env.PORT || 4242
 // const apiUrl = 'https://whois.fdnd.nl/api/v1/squad?id=cldcspecf0z0o0bw59l8bwqim'
 
 const historySize = 50
