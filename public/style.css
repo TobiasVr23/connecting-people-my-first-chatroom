@@ -6,6 +6,7 @@ body {
   overflow: hidden;
   min-height: 100vh;
   min-width: 100vw;
+  background-color: #FEB51E;
 
 }
 
@@ -24,7 +25,7 @@ section {
   width: 20rem;
   height: 30rem;
   /* background: rgb(239, 238, 238); */
-  background: rgba(255, 255, 255, 0.6);
+  background: #31439C;
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -126,9 +127,15 @@ section form > button:active {
 
 fieldset{
   border-radius: 12px;
+  border-color: #FEB51E;
+  color: #FEB51E;
 }
 
 li{
   border: solid black 1px;
   border-radius: 15px;
+}
+
+h1{
+  color: #FEB51E;
 }
